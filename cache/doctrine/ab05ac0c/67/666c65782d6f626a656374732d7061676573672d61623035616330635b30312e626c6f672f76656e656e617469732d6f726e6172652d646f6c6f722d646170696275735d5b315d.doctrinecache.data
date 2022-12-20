@@ -1,0 +1,19 @@
+1671490360
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:35:"blog/venenatis-ornare-dolor-dapibus";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:30:"Venenatis ornare dolor dapibus";s:4:"date";s:16:"14:55 07/11/2014";s:6:"author";a:5:{s:4:"name";s:13:"Tasha Maxwell";s:11:"description";s:175:"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.";s:3:"url";s:1:"#";s:8:"gravatar";N;s:4:"logo";s:10:"x_logo.jpg";}s:8:"taxonomy";a:2:{s:8:"category";s:4:"blog";s:3:"tag";a:2:{i:0;s:7:"journal";i:1;s:11:"photography";}}}s:11:"frontmatter";s:386:"title: Venenatis ornare dolor dapibus
+date: 14:55 07/11/2014
+author:
+  name: Tasha Maxwell
+  description: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+  url: "#"
+  gravatar:
+  logo: x_logo.jpg
+taxonomy:
+    category: blog
+    tag: [journal, photography]";s:8:"markdown";s:1339:"Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+
+> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+
+Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper.
+
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+";}s:7:"storage";a:6:{s:3:"key";s:35:"blog/venenatis-ornare-dolor-dapibus";s:11:"storage_key";s:38:"01.blog/venenatis-ornare-dolor-dapibus";s:8:"template";s:4:"item";s:17:"storage_timestamp";i:1665247248;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"item";i:1665247248;}}s:8:"checksum";s:32:"0756c88e9d2475ad15d3fab60cd6c204";}}

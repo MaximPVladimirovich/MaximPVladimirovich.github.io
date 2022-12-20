@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1671489739
+count: 1
+index:
+  maxim:
+    storage_key: maxim
+    storage_timestamp: 1671489739
+    key: maxim
+    email: maxim.bleeker@gmail.com

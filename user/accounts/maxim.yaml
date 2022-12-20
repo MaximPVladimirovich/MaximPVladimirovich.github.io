@@ -1,0 +1,11 @@
+state: enabled
+email: maxim.bleeker@gmail.com
+fullname: 'maxim b'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$ESH5qcbX561L2KKkYFTNwOFNsCN4IoYSA9tibKxAR1KxLOr29HEQe

@@ -1,0 +1,22 @@
+1671490362
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"blog";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:7:{s:5:"title";s:4:"Blog";s:8:"blog_url";s:4:"blog";s:12:"body_classes";s:22:"header-image fullwidth";s:7:"sitemap";a:2:{s:10:"changefreq";s:7:"monthly";s:8:"priority";d:1.03;}s:7:"content";a:4:{s:5:"items";s:14:"@self.children";s:5:"order";a:2:{s:2:"by";s:4:"date";s:3:"dir";s:4:"desc";}s:5:"limit";i:5;s:10:"pagination";b:1;}s:4:"feed";a:2:{s:11:"description";s:23:"Sample Blog Description";s:5:"limit";i:10;}s:10:"pagination";b:1;}s:11:"frontmatter";s:312:"title: Blog
+blog_url: blog
+body_classes: header-image fullwidth
+
+sitemap:
+    changefreq: monthly
+    priority: 1.03
+
+content:
+    items: @self.children
+    order:
+        by: date
+        dir: desc
+    limit: 5
+    pagination: true
+
+feed:
+    description: Sample Blog Description
+    limit: 10
+
+pagination: true";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:4:"blog";s:11:"storage_key";s:7:"01.blog";s:8:"template";s:4:"blog";s:17:"storage_timestamp";i:1665247248;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"blog";i:1665247248;}}s:8:"children";a:11:{s:27:"amazing-video-quality-vimeo";b:0;s:34:"dirt-racing-going-to-start-in-utah";b:0;s:19:"draught-vaein-mynel";b:0;s:19:"game-mask-pc-review";b:0;s:18:"my-style-statement";b:0;s:22:"papilion-minter-savior";b:0;s:18:"right-path-mystery";b:0;s:17:"simple-vimeo-post";b:0;s:19:"simple-youtube-post";b:0;s:30:"venenatis-ornare-dolor-dapibus";b:0;s:26:"ways-to-remember-something";b:0;}s:8:"checksum";s:32:"4e8dcea78ace024595c1dcdf544dfc91";}}

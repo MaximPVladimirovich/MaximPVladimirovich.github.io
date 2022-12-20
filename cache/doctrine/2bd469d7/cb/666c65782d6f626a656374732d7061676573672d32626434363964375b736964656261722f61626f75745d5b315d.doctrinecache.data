@@ -1,0 +1,23 @@
+1671490362
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:13:"sidebar/about";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:5:{s:8:"taxonomy";a:1:{s:8:"category";s:7:"sidebar";}s:10:"css_suffix";s:12:"widget-about";s:8:"surround";s:8:"authorzo";s:5:"image";s:9:"about.png";s:6:"social";a:6:{i:0;a:2:{s:4:"icon";s:8:"facebook";s:3:"url";s:1:"#";}i:1;a:2:{s:4:"icon";s:7:"twitter";s:3:"url";s:1:"#";}i:2;a:2:{s:4:"icon";s:11:"google-plus";s:3:"url";s:1:"#";}i:3;a:2:{s:4:"icon";s:8:"linkedin";s:3:"url";s:1:"#";}i:4;a:2:{s:4:"icon";s:12:"youtube-play";s:3:"url";s:1:"#";}i:5;a:2:{s:4:"icon";s:8:"envelope";s:3:"url";s:1:"#";}}}s:11:"frontmatter";s:299:"taxonomy:
+    category: sidebar
+css_suffix: widget-about
+surround: authorzo
+image: about.png
+social:
+  - icon: facebook
+    url: "#"
+  - icon: twitter
+    url: "#"
+  - icon: google-plus
+    url: "#"
+  - icon: linkedin
+    url: "#"
+  - icon: youtube-play
+    url: "#"
+  - icon: envelope
+    url: "#"
+";s:8:"markdown";s:145:"###Salman Siddiqui
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+";}s:7:"storage";a:6:{s:3:"key";s:13:"sidebar/about";s:11:"storage_key";s:13:"sidebar/about";s:8:"template";s:5:"about";s:17:"storage_timestamp";i:1665247248;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"about";i:1665247248;}}s:8:"checksum";s:32:"31fe24bd1a5fbce87488bcc623c6dd5a";}}
