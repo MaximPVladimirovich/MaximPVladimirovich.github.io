@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1671554849,
-    'checksum' => 'ff58005102bd3b41e41da1bff8aaf907',
+    'timestamp' => 1671555733,
+    'checksum' => '08cc5eb047c555b4d35696b394f2a4f9',
     'files' => [
         'user/config' => [
             'media' => [
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1671554774
+                'modified' => 1671555729
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -4103,7 +4103,7 @@ node_modules'
             ],
             'description' => 'AI Code Bits is a blog about Artificial Intelligence, javascript, full-stack development, and other topics.',
             'menu' => NULL,
-            'copyright' => 'Created By <a href="http://www.soratemplates.com/" rel="dofollow" target="_blank" title="Blogger Templates">Sora Templates</a> and <a href="http://mybloggerthemes.com/" rel="dofollow" target="_blank" title="Blogger Templates">My Blogger Themes</a> , Ported By <a href="http://www.getgrav.org" rel="dofollow" target="_blank" title="Grav">Grav Team</a>'
+            'copyright' => '© 2018 AI Code Bits'
         ],
         'system' => [
             'absolute_urls' => false,

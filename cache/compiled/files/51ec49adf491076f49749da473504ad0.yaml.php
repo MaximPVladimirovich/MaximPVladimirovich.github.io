@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/pooldash/code/grav-skeleton-pinpress-site+admin-1.0.0/user/config/site.yaml',
-    'modified' => 1671554774,
-    'size' => 960,
+    'modified' => 1671555729,
+    'size' => 632,
     'data' => [
         'title' => 'AI Code Bits',
         'description' => 'AI Code Bits is a blog about Artificial Intelligence, javascript, full-stack development, and other topics.',
@@ -27,6 +27,6 @@ return [
             2 => 'month'
         ],
         'menu' => NULL,
-        'copyright' => 'Created By <a href="http://www.soratemplates.com/" rel="dofollow" target="_blank" title="Blogger Templates">Sora Templates</a> and <a href="http://mybloggerthemes.com/" rel="dofollow" target="_blank" title="Blogger Templates">My Blogger Themes</a> , Ported By <a href="http://www.getgrav.org" rel="dofollow" target="_blank" title="Grav">Grav Team</a>'
+        'copyright' => '© 2018 AI Code Bits'
     ]
 ];

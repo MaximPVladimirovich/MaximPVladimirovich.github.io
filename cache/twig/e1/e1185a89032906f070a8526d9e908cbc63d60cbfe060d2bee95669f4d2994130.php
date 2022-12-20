@@ -416,51 +416,10 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
               <div class=\"up_arrow\"></div>
               <div class=\"pull-right share-story-container\">
                 <ul class=\"share-story\">
-                  <li>
-                    <a href=\"http://www.facebook.com/share.php?u=";
-        // line 117
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true], "method"), "html", null, true);
-        echo "\" target=\"_blank\">
-                      <i class=\"fa fa-facebook\"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=\"http://twitter.com/home?status=";
-        // line 122
-        echo twig_escape_filter($this->env, twig_replace_filter($this->getAttribute(($context["page"] ?? null), "title", []), [" " => "%20"]), "html", null, true);
-        echo "-";
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true], "method"), "html", null, true);
-        echo "\" target=\"_blank\">
-                      <i class=\"fa fa-twitter\"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=\"http://digg.com/submit?url=";
-        // line 127
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true], "method"), "html", null, true);
-        echo "&amp;title=";
-        echo twig_escape_filter($this->env, twig_replace_filter($this->getAttribute(($context["page"] ?? null), "title", []), [" " => "%20"]), "html", null, true);
-        echo "\" target=\"_blank\">
-                      <i class=\"fa fa-digg\"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=\"http://reddit.com/submit?url=";
-        // line 132
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true], "method"), "html", null, true);
-        echo "&amp;title=";
-        echo twig_escape_filter($this->env, twig_replace_filter($this->getAttribute(($context["page"] ?? null), "title", []), [" " => "%20"]), "html", null, true);
-        echo "\" target=\"_blank\">
-                      <i class=\"fa fa-reddit\"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=\"http://www.linkedin.com/shareArticle?mini=true&amp;url=";
-        // line 137
-        echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true], "method"), "html", null, true);
-        echo "&amp;title=";
-        echo twig_escape_filter($this->env, twig_replace_filter($this->getAttribute(($context["page"] ?? null), "title", []), [" " => "%20"]), "html", null, true);
-        echo "\" target=\"_blank\">
+                 ";
+        // line 136
+        echo "                  <li>
+                    <a href=\"https://www.linkedin.com/in/james-maxim-vladimirovich/\" target=\"_blank\">
                       <i class=\"fa fa-linkedin\"></i>
                     </a>
                   </li>
@@ -492,121 +451,42 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
         // line 151
         echo "              <div class=\"clear\"></div>
             </div>
-
-           
-
-            ";
-        // line 156
-        if ( !($context["truncate"] ?? null)) {
-            // line 157
-            echo "            <div class=\"related_posts\">
-              <div id=\"related-posts\">
-                <div class=\"title\">
-                  <h4>Related Posts</h4>
-                </div>
-                <div class=\"carousel_related owl-carousel owl-theme\" id=\"owl-demo\">
-                  ";
-            // line 163
-            $this->loadTemplate("partials/relatedpages.html.twig", "partials/blog_item.html.twig", 163)->display($context);
-            // line 164
-            echo "                </div>
-              </div>
-              <div style=\"clear:both\"></div>
-            </div>
-            <script type='text/javascript'>
-              \$(document).ready(function() {
-                \$(\"#owl-demo\").owlCarousel({
-                  autoPlay: 3000,
-                  items : 3,
-                  itemsDesktop : [1200,3],
-                  itemsDesktopSmall : [980,2],
-                  itemsMobile : [480,1]
-                });
-              });
-              </script>
-            ";
-        }
-        // line 180
-        echo "
-      ";
-        // line 181
-        if ( !($context["truncate"] ?? null)) {
-            // line 182
-            echo "        ";
-            if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "jscomments", []), "enabled", []) && $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "jscomments", []), "provider", []))) {
-                // line 183
-                echo "        <div class=\"comments\" id=\"comments\">
-          <h4>Comments:</h3>
-          <div class=\"comments-content\">
-            ";
-                // line 186
-                echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('jscomments')->getCallable(), [$this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "jscomments", []), "provider", [])]), "html", null, true);
-                echo "
-          </div>
-        </div>
-        ";
-            }
-            // line 190
-            echo "
-        ";
-            // line 191
-            if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "comments", []), "enabled", [])) {
-                // line 192
-                echo "        <div class=\"comments\" id=\"comments\">
-          <h4>";
-                // line 193
-                echo twig_escape_filter($this->env, twig_length_filter($this->env, $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "twig", []), "comments", [])), "html", null, true);
-                echo " Comments:</h3>
-          <div class=\"comments-content\">
-            ";
-                // line 195
-                $this->loadTemplate("partials/comments.html.twig", "partials/blog_item.html.twig", 195)->display(twig_array_merge($context, ["page" => ($context["page"] ?? null)]));
-                // line 196
-                echo "          </div>
-        </div>
-        ";
-            }
-            // line 199
-            echo "
-      ";
-        }
-        // line 201
-        echo "    </div>
+    </div>
   </div>
 </div>
 
 ";
-        // line 205
+        // line 157
         if (($context["show_prev_next"] ?? null)) {
-            // line 206
+            // line 158
             echo "<div class=\"blog-pager\" id=\"blog-pager\">
   ";
-            // line 207
+            // line 159
             if ( !$this->getAttribute(($context["page"] ?? null), "isFirst", [])) {
-                // line 208
+                // line 160
                 echo "  <span id=\"blog-pager-newer-link\">
     <a class=\"blog-pager-newer-link\" href=\"";
-                // line 209
+                // line 161
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "nextSibling", []), "url", []), "html", null, true);
                 echo "\"><i class=\"fa fa-chevron-left\"></i> Newer Post</a>
   </span>
   ";
             }
-            // line 212
+            // line 164
             echo "
   ";
-            // line 213
+            // line 165
             if ( !$this->getAttribute(($context["page"] ?? null), "isLast", [])) {
-                // line 214
+                // line 166
                 echo "  <span id=\"blog-pager-older-link\">
     <a class=\"blog-pager-older-link\" href=\"";
-                // line 215
+                // line 167
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "prevSibling", []), "url", []), "html", null, true);
                 echo "\">Older Post <i class=\"fa fa-chevron-right\"></i></a>
   </span>
   ";
             }
-            // line 218
+            // line 170
             echo "  <a class=\"home-link\" href=\"";
             echo twig_escape_filter($this->env, ($context["base_url_absolute"] ?? null), "html", null, true);
             echo "\">Home</a>
@@ -627,7 +507,7 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
 
     public function getDebugInfo()
     {
-        return array (  610 => 218,  604 => 215,  601 => 214,  599 => 213,  596 => 212,  590 => 209,  587 => 208,  585 => 207,  582 => 206,  580 => 205,  574 => 201,  570 => 199,  565 => 196,  563 => 195,  558 => 193,  555 => 192,  553 => 191,  550 => 190,  543 => 186,  538 => 183,  535 => 182,  533 => 181,  530 => 180,  512 => 164,  510 => 163,  502 => 157,  500 => 156,  493 => 151,  490 => 150,  484 => 148,  482 => 147,  477 => 146,  474 => 145,  472 => 144,  460 => 137,  450 => 132,  440 => 127,  430 => 122,  422 => 117,  414 => 111,  411 => 110,  409 => 109,  404 => 108,  398 => 106,  396 => 105,  391 => 104,  388 => 103,  385 => 102,  382 => 101,  380 => 100,  375 => 99,  373 => 98,  369 => 96,  363 => 94,  360 => 93,  354 => 91,  351 => 90,  341 => 88,  338 => 87,  328 => 85,  326 => 84,  313 => 83,  308 => 80,  302 => 76,  298 => 74,  274 => 72,  257 => 71,  254 => 70,  252 => 69,  249 => 68,  246 => 67,  243 => 66,  237 => 64,  229 => 62,  226 => 61,  223 => 60,  217 => 58,  209 => 56,  206 => 55,  203 => 54,  201 => 53,  196 => 51,  191 => 48,  187 => 46,  183 => 44,  159 => 42,  142 => 41,  139 => 40,  137 => 39,  134 => 38,  131 => 37,  128 => 36,  122 => 34,  114 => 32,  111 => 31,  108 => 30,  102 => 28,  94 => 26,  91 => 25,  88 => 24,  86 => 23,  81 => 21,  77 => 19,  74 => 18,  66 => 16,  57 => 13,  51 => 11,  49 => 10,  46 => 9,  44 => 8,  38 => 4,  32 => 2,  30 => 1,);
+        return array (  490 => 170,  484 => 167,  481 => 166,  479 => 165,  476 => 164,  470 => 161,  467 => 160,  465 => 159,  462 => 158,  460 => 157,  452 => 151,  449 => 150,  443 => 148,  441 => 147,  436 => 146,  433 => 145,  431 => 144,  421 => 136,  414 => 111,  411 => 110,  409 => 109,  404 => 108,  398 => 106,  396 => 105,  391 => 104,  388 => 103,  385 => 102,  382 => 101,  380 => 100,  375 => 99,  373 => 98,  369 => 96,  363 => 94,  360 => 93,  354 => 91,  351 => 90,  341 => 88,  338 => 87,  328 => 85,  326 => 84,  313 => 83,  308 => 80,  302 => 76,  298 => 74,  274 => 72,  257 => 71,  254 => 70,  252 => 69,  249 => 68,  246 => 67,  243 => 66,  237 => 64,  229 => 62,  226 => 61,  223 => 60,  217 => 58,  209 => 56,  206 => 55,  203 => 54,  201 => 53,  196 => 51,  191 => 48,  187 => 46,  183 => 44,  159 => 42,  142 => 41,  139 => 40,  137 => 39,  134 => 38,  131 => 37,  128 => 36,  122 => 34,  114 => 32,  111 => 31,  108 => 30,  102 => 28,  94 => 26,  91 => 25,  88 => 24,  86 => 23,  81 => 21,  77 => 19,  74 => 18,  66 => 16,  57 => 13,  51 => 11,  49 => 10,  46 => 9,  44 => 8,  38 => 4,  32 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -755,7 +635,7 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
               <div class=\"up_arrow\"></div>
               <div class=\"pull-right share-story-container\">
                 <ul class=\"share-story\">
-                  <li>
+                 {# <li>
                     <a href=\"http://www.facebook.com/share.php?u={{ page.url(true) }}\" target=\"_blank\">
                       <i class=\"fa fa-facebook\"></i>
                     </a>
@@ -774,9 +654,9 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
                     <a href=\"http://reddit.com/submit?url={{ page.url(true) }}&amp;title={{ page.title|replace({' ': \"%20\"}) }}\" target=\"_blank\">
                       <i class=\"fa fa-reddit\"></i>
                     </a>
-                  </li>
+                  </li>#}
                   <li>
-                    <a href=\"http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url(true) }}&amp;title={{ page.title|replace({' ': \"%20\"}) }}\" target=\"_blank\">
+                    <a href=\"https://www.linkedin.com/in/james-maxim-vladimirovich/\" target=\"_blank\">
                       <i class=\"fa fa-linkedin\"></i>
                     </a>
                   </li>
@@ -792,54 +672,6 @@ class __TwigTemplate_4057d7688b84610a9fb182215204aea5932dbfb3c6ef1cf9c0fccec9c50
               {% endif %}
               <div class=\"clear\"></div>
             </div>
-
-           
-
-            {% if not truncate %}
-            <div class=\"related_posts\">
-              <div id=\"related-posts\">
-                <div class=\"title\">
-                  <h4>Related Posts</h4>
-                </div>
-                <div class=\"carousel_related owl-carousel owl-theme\" id=\"owl-demo\">
-                  {% include 'partials/relatedpages.html.twig' %}
-                </div>
-              </div>
-              <div style=\"clear:both\"></div>
-            </div>
-            <script type='text/javascript'>
-              \$(document).ready(function() {
-                \$(\"#owl-demo\").owlCarousel({
-                  autoPlay: 3000,
-                  items : 3,
-                  itemsDesktop : [1200,3],
-                  itemsDesktopSmall : [980,2],
-                  itemsMobile : [480,1]
-                });
-              });
-              </script>
-            {% endif %}
-
-      {% if not truncate %}
-        {% if config.plugins.jscomments.enabled and config.plugins.jscomments.provider %}
-        <div class=\"comments\" id=\"comments\">
-          <h4>Comments:</h3>
-          <div class=\"comments-content\">
-            {{ jscomments(config.plugins.jscomments.provider) }}
-          </div>
-        </div>
-        {% endif %}
-
-        {% if config.plugins.comments.enabled %}
-        <div class=\"comments\" id=\"comments\">
-          <h4>{{ grav.twig.comments|length }} Comments:</h3>
-          <div class=\"comments-content\">
-            {% include 'partials/comments.html.twig' with {'page': page} %}
-          </div>
-        </div>
-        {% endif %}
-
-      {% endif %}
     </div>
   </div>
 </div>

@@ -113,7 +113,7 @@
               <div class="up_arrow"></div>
               <div class="pull-right share-story-container">
                 <ul class="share-story">
-                  <li>
+                 {# <li>
                     <a href="http://www.facebook.com/share.php?u={{ page.url(true) }}" target="_blank">
                       <i class="fa fa-facebook"></i>
                     </a>
@@ -132,9 +132,9 @@
                     <a href="http://reddit.com/submit?url={{ page.url(true) }}&amp;title={{ page.title|replace({' ': "%20"}) }}" target="_blank">
                       <i class="fa fa-reddit"></i>
                     </a>
-                  </li>
+                  </li>#}
                   <li>
-                    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url(true) }}&amp;title={{ page.title|replace({' ': "%20"}) }}" target="_blank">
+                    <a href="https://www.linkedin.com/in/james-maxim-vladimirovich/" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -150,104 +150,6 @@
               {% endif %}
               <div class="clear"></div>
             </div>
-
-            {% if not truncate %}
-            <div class="author-meta box">
-              {% if page.header.author %}
-              {% if page.header.author.logo or page.header.author.gravatar %}
-              <div class="author-image">
-                {% if page.header.author.gravatar %}
-                  <img src="http://www.gravatar.com/avatar/{{ page.header.author.gravatar|md5 }}?s=90" class="avatar-author" alt="Gravatar"/>
-                {% elseif page.header.author.logo  %}
-                  <img src="{{ page.media.images[page.header.author.logo].url }}" class="avatar-author" />
-                {% endif %}
-              </div>
-              {% endif %}
-              <div class="author-body">
-                <h2 class="vcard author">
-                  {% if page.header.author.url %}
-                  <a href="{{ page.header.author.url }}" rel="author">{{ page.header.author.name }}</a>
-                  {% else %}
-                  {{ page.header.author.name }}
-                  {% endif %}
-                </h2>
-                <p>
-                  {{ page.header.author.description }}
-                </p>
-              </div>
-              {% else %}
-              {% if site.author.logo or site.author.gravatar %}
-              <div class="author-image">
-                {% if site.author.gravatar  %}
-                  <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar|md5 }}?s=90" class="avatar-author" alt="Gravatar"/>
-                {% elseif site.author.logo  %}
-                  <img src="{{ theme_url }}/images/{{ site.author.logo }}" class="avatar-author" />
-                {% endif %}
-              </div>
-              {% endif %}
-              <div class="author-body">
-                <h2 class="vcard author">
-                  {% if site.author.url %}
-                  <a href="{{ site.author.url }}" rel="author">{{ site.author.name }}</a>
-                  {% else %}
-                  {{ site.author.name }}
-                  {% endif %}
-                </h2>
-                <p>
-                  {{ site.author.description }}
-                </p>
-              </div>
-              {% endif %}
-
-              <div class="clear"></div>
-            </div>
-            {% endif %}
-
-            {% if not truncate %}
-            <div class="related_posts">
-              <div id="related-posts">
-                <div class="title">
-                  <h4>Related Posts</h4>
-                </div>
-                <div class="carousel_related owl-carousel owl-theme" id="owl-demo">
-                  {% include 'partials/relatedpages.html.twig' %}
-                </div>
-              </div>
-              <div style="clear:both"></div>
-            </div>
-            <script type='text/javascript'>
-              $(document).ready(function() {
-                $("#owl-demo").owlCarousel({
-                  autoPlay: 3000,
-                  items : 3,
-                  itemsDesktop : [1200,3],
-                  itemsDesktopSmall : [980,2],
-                  itemsMobile : [480,1]
-                });
-              });
-              </script>
-            {% endif %}
-
-      {% if not truncate %}
-        {% if config.plugins.jscomments.enabled and config.plugins.jscomments.provider %}
-        <div class="comments" id="comments">
-          <h4>Comments:</h3>
-          <div class="comments-content">
-            {{ jscomments(config.plugins.jscomments.provider) }}
-          </div>
-        </div>
-        {% endif %}
-
-        {% if config.plugins.comments.enabled %}
-        <div class="comments" id="comments">
-          <h4>{{ grav.twig.comments|length }} Comments:</h3>
-          <div class="comments-content">
-            {% include 'partials/comments.html.twig' with {'page': page} %}
-          </div>
-        </div>
-        {% endif %}
-
-      {% endif %}
     </div>
   </div>
 </div>
